@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="mainThemeColor">#F28A90</color>
+    <color name="mainYellow">#FFF59D</color>
+    <color name="mainGreen">#87fa00</color>
 </resources>
