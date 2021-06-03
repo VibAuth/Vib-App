@@ -13,40 +13,61 @@
         android:layout_height="match_parent"
         android:padding="2dp"
         android:layout_marginTop="@dimen/screen_percentage_05"
-        android:orientation="vertical"
-        app:boxedEdges="all" >
+        android:orientation="horizontal"
+        app:boxedEdges="all">
 
+<!--        <ImageView-->
+<!--            android:id="@+id/trainiv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:drawable = "@drawable/sample_icon"-->
+<!--            ></ImageView>-->
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="2"
-
-            android:orientation="horizontal">
+            android:orientation="vertical">
         <Button
-            android:background="@drawable/roundedbutton"
-            android:layout_marginRight="@dimen/screen_percentage_05"
-            android:textSize="20dp"
+            android:background="@drawable/custom_ripple_effect"
+            android:layout_marginBottom="@dimen/screen_percentage_05"
+            android:textSize="30dp"
             android:id="@+id/button"
             android:layout_gravity="top"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
             android:text="TRAIN" />
 
 
         <Button
-            android:background="@drawable/roundedbutton"
-            android:textSize="20dp"
+            android:background="@drawable/custom_ripple_effect"
+            android:textSize="30dp"
             android:id="@+id/button2"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="TEST" />
-
         </LinearLayout>
 
-
-
     </LinearLayout>
+
+<!--    <androidx.wear.widget.CircularProgressLayout-->
+<!--        android:id="@+id/circular_progress"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="4dp"-->
+<!--        app:backgroundColor="#355ce8"-->
+<!--        app:colorSchemeColors="@color/lightblue"-->
+<!--        app:strokeWidth="4dp">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/image_view"-->
+<!--            android:src="@drawable/ic_full_cancel"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp" />-->
+<!--    </androidx.wear.widget.CircularProgressLayout>-->
 </androidx.wear.widget.BoxInsetLayout>
+

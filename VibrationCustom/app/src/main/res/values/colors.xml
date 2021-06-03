@@ -3,4 +3,7 @@
     <color name="mainThemeColor">#F28A90</color>
     <color name="mainYellow">#FFF59D</color>
     <color name="mainGreen">#87fa00</color>
+    <color name="darkblue">#355ce8</color>
+    <color name="lightblue">#abdfff</color>
+    <color name="lightGreen">#f5fced</color>
 </resources>

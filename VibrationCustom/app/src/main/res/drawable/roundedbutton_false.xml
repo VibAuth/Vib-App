@@ -5,7 +5,7 @@
 
     <ripple xmlns:android="http://schemas.android.com/apk/res/android"
         android:color="#f5fced"/>
-    <solid android:color="#87fa00" />
+    <solid android:color="@color/light_grey" />
     <corners android:bottomRightRadius="60dp"
         android:bottomLeftRadius="60dp"
         android:topRightRadius="60dp"
