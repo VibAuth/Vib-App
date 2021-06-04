@@ -12,6 +12,7 @@ import android.os.Vibrator;
 import android.support.wearable.activity.WearableActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -183,7 +184,7 @@ public class TrainActivity extends WearableActivity {
         });
 
 
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         // Enables Always-on
         setAmbientEnabled();
     }
