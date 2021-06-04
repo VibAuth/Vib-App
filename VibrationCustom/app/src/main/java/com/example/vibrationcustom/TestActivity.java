@@ -37,6 +37,7 @@ public class TestActivity extends WearableActivity {
 
         // Enables Always-on
         setAmbientEnabled();
+        //finish();
     }
 
     @Override
